@@ -1,0 +1,33 @@
+{
+  "name": "js-get-utils",
+  "version": "1.0.0",
+  "description": "Automatically download virus removal utilities to a directory provided as an argument at runtime",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "bin": "bin.js",
+  "keywords": [
+    "Virus Removal",
+    "Utilities",
+    "Malwarebytes",
+    "Kaspersky",
+    "CCleaner",
+    "CCleaner Portable",
+    "EEK",
+    "Emsisoft",
+    "Emergency",
+    "Kit",
+    "Emsisoft Emergency Kit"
+  ],
+  "author": "Kyle Erdahl",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.1.0"
+  }
+}
