@@ -5,7 +5,8 @@ if (process.argv.length > 2) {
   getUtils(dir);
 } else {
   console.log(
-    'GetUtils requires an argument containing the directory to store the downloaded utilities.'
+    `Downloading utilities to current directory (${process.cwd()})...`
   );
-  process.exit(0);
+  let dir = '.';
+  getUtils(dir);
 }
