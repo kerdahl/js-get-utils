@@ -24,7 +24,7 @@
   "author": "Kyle Erdahl",
   "license": "ISC",
   "dependencies": {
-    "cheerio": "^1.0.0-rc.3",
+    "cheerio": "^1.0.0-rc.5",
     "node-fetch": "^2.6.1"
   },
   "devDependencies": {
